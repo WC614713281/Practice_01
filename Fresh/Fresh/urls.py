@@ -23,5 +23,5 @@ urlpatterns = [
     # 格式二：
     # path('', include('子应用名.urls')),
     # 用户模块：http://127.0.0.1:8000/users/register/
-    path('', include('users.urls'))
+    path('', include('users.urls')),
 ]
